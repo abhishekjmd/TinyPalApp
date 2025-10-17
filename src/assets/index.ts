@@ -1,0 +1,16 @@
+export {default as arrowLeft} from '../assets/arrowLeft.png';
+export {default as sickGirl} from '../assets/sickGirl.png';
+export {default as doYouKnow} from '../assets/doYoKnow.png';
+export {default as ellipse} from '../assets/Ellipse.png';
+export {default as crossArrow} from '../assets/crossArrow.png';
+export {default as bottomTapBackground} from '../assets/bottomTabBackground.png';
+export {default as character} from '../assets/character.png';
+export {default as laughingBoy} from '../assets/laughingBoy.png';
+export {default as oneRectangle} from '../assets/oneRectangle.png';
+export {default as modalRectangle} from '../assets/modalRectangle.png';
+export {default as script} from '../assets/script.png';
+export {default as topArrow} from '../assets/topArrow.png';
+export {default as save} from '../assets/save.png';
+export {default as star} from '../assets/star.png';
+export {default as junkFood} from '../assets/junkFood.png';
+export {default as arrowUp} from '../assets/arrowUp.png';

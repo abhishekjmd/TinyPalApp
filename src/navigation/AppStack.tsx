@@ -1,14 +1,14 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import BottomTabs from './BottomTabs';
-import Cart from '../screens/Cart';
-import Order from '../screens/Order';
+import Home from '../screens/Home';
+import DoYouKnow from '../screens/DoYouKnow';
+import Flashcard from '../screens/Flashcard';
 
 const Stack = createStackNavigator();
 
 export const AppStack = () => (
     <Stack.Navigator>
-        <Stack.Screen name="Home" component={BottomTabs} options={{ headerShown: false }} />
-        <Stack.Screen name="Cart" component={Cart} />
-        <Stack.Screen name="Orders" component={Order} />
+        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
+        <Stack.Screen name='doYouKnow' component={DoYouKnow} options={{ headerShown: false }} />
+        <Stack.Screen name='flashcard' component={Flashcard} options={{ headerShown: false }} />
     </Stack.Navigator>
 );
